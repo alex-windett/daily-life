@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+  font-size: 50px;
+}
+
+#weather { 
+  width: 100%;
+}
+
+#weatherForecast {
+  display: inline-block;
+  width: 15%;
+  border: solid black 2px;
+  margin-right: 1%; 
+}
