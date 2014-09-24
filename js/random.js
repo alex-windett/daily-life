@@ -11,4 +11,15 @@ $.ajax({
     )
 })
 
+$.ajax({
+  type: "GET",
+  url: "http://api.adviceslip.com/advice",
+  dataType: "JSON"
+}).success(function(data){
+  $("#advice").append(
+    "<h2> Some Advice for you </h2>" + 
+    "<p>" + data.slip.advice + "</p>"
+    )
+})
+
 })
