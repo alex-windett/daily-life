@@ -11,7 +11,7 @@ $(document).ready(function(){
       "<h2>0600</h2>" + 
       "<p>" + todaysWeather[0].T + " °C</p>" +
       "<p>Feels like " + todaysWeather[0].F + " °C</p>" +
-      "<p>" + todaysWeather[0].W + " weather code</p>" +
+      // "<p>" + todaysWeather[0].W + " weather code</p>" +
       "<p>" + todaysWeather[0].Pp + " % chance of rain</p>" +
     "</div>" +
 
@@ -20,7 +20,7 @@ $(document).ready(function(){
       "<h2>0900</h2>" + 
       "<p>" + todaysWeather[1].T + " °C</p>" +
       "<p>Feels like " + todaysWeather[1].F + " °C</p>" +
-      "<p>" + todaysWeather[1].W + " weather code</p>" +
+      // "<p>" + todaysWeather[1].W + " weather code</p>" +
       "<p>" + todaysWeather[1].Pp + " % chance of rain</p>" +
     "</div>" +
 
@@ -29,7 +29,7 @@ $(document).ready(function(){
       "<h2>1200</h2>" + 
       "<p>" + todaysWeather[2].T + " °C</p>" +
       "<p>Feels like " + todaysWeather[2].F + " °C</p>" +
-      "<p>" + todaysWeather[2].W + " weather code</p>" +
+      // "<p>" + todaysWeather[2].W + " weather code</p>" +
       "<p>" + todaysWeather[2].Pp + " % chance of rain</p>" +
     "</div>" +
 
@@ -38,7 +38,7 @@ $(document).ready(function(){
       "<h2>1500</h2>" + 
       "<p>" + todaysWeather[3].T + " °C</p>" +
       "<p>Feels like " + todaysWeather[3].F + " °C</p>" +
-      "<p>" + todaysWeather[3].W + " weather code</p>" +
+      // "<p>" + todaysWeather[3].W + " weather code</p>" +
       "<p>" + todaysWeather[3].Pp + " % chance of rain</p>" +
     "</div>" +
 
@@ -47,7 +47,7 @@ $(document).ready(function(){
       "<h2>1800</h2>" + 
       "<p>" + todaysWeather[4].T + " °C</p>" +
       "<p>Feels like " + todaysWeather[4].F + " °C</p>" +
-      "<p>" + todaysWeather[4].W + " weather code</p>" +
+      // "<p>" + todaysWeather[4].W + " weather code</p>" +
       "<p>" + todaysWeather[4].Pp + " % chance of rain</p>" +
     "</div>" 
     )

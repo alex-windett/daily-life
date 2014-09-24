@@ -3,13 +3,40 @@ h1 {
   font-size: 50px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 #weather { 
   width: 100%;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
 
 #weatherForecast {
   display: inline-block;
   width: 15%;
-  border: solid black 2px;
-  margin-right: 1%; 
+  padding-left: 1%;
+}
+
+#weatherForecast:not(:first-child) {
+  border-left: 2px solid black; 
+}
+
+.today {
+  width: 100%;
+}
+
+#news {
+  width: 70%;
+  float:left;
+}
+
+#tfl {
+  float: right;
 }
