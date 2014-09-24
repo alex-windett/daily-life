@@ -8,16 +8,11 @@ $(document).ready(function(){
     var latestNews = data.response.results
     $('#news').append(
       "<h2>Latest Headlines</h2>" +
-      "<h3>" + latestNews[0].webTitle + "</h3>" +
-      "<p>" + latestNews[0].webUrl + "</p>"+
-      "<h3>" + latestNews[1].webTitle + "</h3>" +
-      "<p>" + latestNews[1].webUrl + "</p>" +
-      "<h3>" + latestNews[2].webTitle + "</h3>" +
-      "<p>" + latestNews[2].webUrl + "</p>" +
-      "<h3>" + latestNews[3].webTitle + "</h3>" +
-      "<p>" + latestNews[3].webUrl + "</p>" +
-      "<h3>" + latestNews[4].webTitle + "</h3>" +
-      "<p>" + latestNews[4].webUrl + "</p>"
+      "<h3><a href='" + latestNews[0].webUrl + "'>" + latestNews[0].webTitle + "</a></h3>" +
+      "<h3><a href='" + latestNews[1].webUrl + "'>" + latestNews[1].webTitle + "</a></h3>" +
+      "<h3><a href='" + latestNews[2].webUrl + "'>" + latestNews[2].webTitle + "</a></h3>" +
+      "<h3><a href='" + latestNews[3].webUrl + "'>" + latestNews[3].webTitle + "</a></h3>" +
+      "<h3><a href='" + latestNews[4].webUrl + "'>" + latestNews[4].webTitle + "</a></h3>"
       )
   })
 
