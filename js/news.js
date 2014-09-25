@@ -26,7 +26,6 @@ $.ajax({
     url: "http://content.guardianapis.com/search?api-key=25re2cds4s4sj93cwhkzb5dg&section=football",
     dataType: "JSON"
   }).success(function(data){
-    console.log(data)
     var latestNews = data.response.results
     $('#sport').append(
       "<h2>Guardian Sport</h2>" +

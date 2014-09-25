@@ -19,20 +19,16 @@ a:hover {
 }
 
 #weather { 
-  width: 100%;
-  margin-left: 10%;
-  margin-bottom: 2%;
-  background-color: #14A0D3;
+width: 100%;
+background-color: #14A0D3;
 }
 
 #weatherForecast {
-  display: inline-block;
-  width: 15%;
-  padding-left: 1%;
-}
-
-#weatherForecast:not(:first-child) {
-  border-left: 2px solid black; 
+display: inline-block;
+margin-left: 4%;
+width: 11%;
+padding-left: 1%;
+background-color: #14A0D3;
 }
 
 .today {
@@ -84,24 +80,22 @@ a:hover {
 
 @media (max-width: 600px) {
   #tfl {
-  width: 100%;
-  float: none;
-  margin-left: 2%;
-}
+    width: 100%;
+    float: none;
+    margin-left: 0%;
+  }
 
- #news {
-  width: 100%;
-  float:none;
-}
+  #weatherForecast {
+    width: 25%;
+  }
 
-#cinema {
+  #weatherForecast:nth-of-type(-n+3) {
+    border-bottom: solid black 2px;
+  }
 
-  width: 100%;
-  float: none;
-}
-
-#quote {
-  width: 100%;
-  float: none;
-}
+  #news, #sport, #cinema, #quote, #advice {
+    padding: 1% 0 1% 1%;
+    width: 100%;
+    float:none;
+  } 
 }

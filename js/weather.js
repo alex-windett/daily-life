@@ -49,6 +49,15 @@ $(document).ready(function(){
       "<p>Feels like " + todaysWeather[4].F + " °C</p>" +
       // "<p>" + todaysWeather[4].W + " weather code</p>" +
       "<p>" + todaysWeather[4].Pp + " % chance of rain</p>" +
+    "</div>" +
+
+    // 2100
+        "<div id='weatherForecast'>" +
+      "<h2>2100</h2>" + 
+      "<p>" + todaysWeather[5].T + " °C</p>" +
+      "<p>Feels like " + todaysWeather[5].F + " °C</p>" +
+      // "<p>" + todaysWeather[5].W + " weather code</p>" +
+      "<p>" + todaysWeather[5].Pp + " % chance of rain</p>" +
     "</div>" 
     )
   })
