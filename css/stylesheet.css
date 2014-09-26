@@ -47,6 +47,7 @@ background-color: #14A0D3;
   padding: 2%;
   float:left;
   background-color: #fdc831;
+
 }
 
 #tfl {
@@ -57,25 +58,24 @@ background-color: #14A0D3;
 
 #cinema {
   padding: 2%;
-  width: 34%;
+  width: 46%;
   float: left;
-  /*clear: both;*/
   background-color: #D34191;
 }
 
 #quote {
-  width: 33%;
+  width: 46%;
    padding: 2%;
    float: right;
   background-color:#1DBAB1; 
 }
 
 #advice {
-  display: inline-block;
   float: right;
-  width: 33%;
+  width: 46%;
   padding: 2%;
   background-color:#15A0D3; 
+
 }
 
 @media (max-width: 600px) {
